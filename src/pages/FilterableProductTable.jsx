@@ -6,7 +6,7 @@ const [search, setSearch] = useState(null)
     return ( 
         < >
         <div className="border-2 rounded-md p-2 m-4 max-w-fit">
-            <SearchBar search={search} setSearch={setSearch} />
+            {/* <SearchBar search={search} setSearch={setSearch} /> */}
             <ProductTable search={search}/>
             {console.log(search)}
         </div>

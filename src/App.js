@@ -12,7 +12,7 @@ function App() {
   return (
    <>
    <FilterableProductTable />
-   <button onClick={handleClick} className='text-5xl font-black'>Clicked {count} { count > 1 ? 'times' : 'time' }</button>
+   {/* <button onClick={handleClick} className='text-5xl font-black'>Clicked {count} { count > 1 ? 'times' : 'time' }</button> */}
    </>
     
   );
